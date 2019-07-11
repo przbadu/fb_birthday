@@ -30,3 +30,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'high_voltage', '~> 3.1'
 gem 'koala'
 gem 'devise'
+gem 'omniauth-facebook'
