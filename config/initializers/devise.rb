@@ -263,7 +263,7 @@ Devise.setup do |config|
   config.omniauth :facebook,
     ENV['FB_APP_ID'],
     ENV['FB_APP_SECRET'],
-    scope: 'email,user_birthday',
+    scope: 'name,email,user_birthday',
     callback_url: "https://fbirthday.herokuapp.com/users/auth/facebook/callback"
 
   # ==> Warden configuration
